@@ -24,5 +24,3 @@ while True:
     except openai.exceptions.OpenAiError as e:
         print("Error: ", e)
         break
-
-    print("ChatGPT: " + chatgpt_response)
